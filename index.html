@@ -7,15 +7,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 	<link rel="stylesheet" href="css/custom.css">
 </head>
 
 <body>
-	<div class="container">
+	<div class="container-fluid">
 		<header>
 			<img class="header-icon" id="logo" src="img/udacity.jpg" alt="Udacity logo">
 			<div class="header-description">
@@ -24,41 +21,39 @@
 			</div>
 		</header>
 		<hr>
-		<div class="row">
-			<div class="col-md-12">
+
 				<section class="main-image">
 					<img src="img/code.jpg" alt="code" class="main">
 				</section>
-			</div>
-		</div>
 		<div class="row">
 			<div class="col-md-12">
 				<h2 class="header2">Featured Work</h2>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-md-4">
+		<!--<Adding cards, wich will be display using flex-->
+      <section id="projects" class="projects-container">
 				<div class="card">
 					<img src="img/code.jpg" alt="code" class="img-responsive">
-				</div>
 				<h3>Movie Time</h3>
 				<p>https://github.com/Nicoya1972/movies</p>
 			</div>
-			<div class="col-md-4">
+
 				<div class="card">
 					<img src="img/code.jpg" alt="code" class="img-responsive">
-				</div>
 				<h3>Resume</h3>
 				<p>https://github.com/Nicoya1972/P2-Resume</p>
 			</div>
-			<div class="col-md-4">
+
 				<div class="card">
 					<img src="img/code.jpg" alt="code" class="img-responsive">
-				</div>
 				<h3>Frogger</h3>
 				<p>https://github.com/Nicoya1972/P3-Arcade-Game</p>
-			</div>
-		</div>
-	</div>
+		</section>
+  </div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>

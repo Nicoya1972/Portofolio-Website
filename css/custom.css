@@ -1,5 +1,15 @@
+/* Large Desktop Specs  */
+@media screen and (min-width: 960px) {
+	body{
+		width: 960px;
+
+		/* Center the body content in the middle with width of 960px */
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+	}
 .container{
-     width: 960px;
+  width: 960px;
 }
  .header-icon {
      display: inline-block;
@@ -24,7 +34,7 @@
 }
  #logo {
      width: 100px;
-     height: 100px;
+     height: auto;
 }
  hr{
      background-color: #7d97ad;
@@ -43,19 +53,65 @@
      color: #7d97ad;
      font-size: 14px;
 }
- .main-image{
-     width: 960px;
-     height: 350px;
-}
  .main{
-     width: 930px;
-     height: 390px;
-     margin-top: 10px;
+     width: 100%;
+
 }
+
  .header2 {
      text-align: left;
      margin: 40px 0 0 5px;
      padding-top: 40px;
      color: #7d97ad;
      font-size: 30px;
+}
+.projects-container{
+  display: flex;
+  justify-content: space-around;
+}
+.card{
+  padding: 5px;
+}
+}
+/*Nexus 5*/
+@media screen and (max-width: 360px) {
+	body {
+        padding: 2px;
+    }
+
+    .header-icon {
+      width: 100px;
+      height: auto;
+		display: inline-block;
+    f
+	}
+
+	.header-description {
+		display: block;
+		text-align: right;
+	}
+
+	.main {
+		width: 360px;
+	}
+}
+/* Ipad */
+@media screen and  (min-width:768px) and (max-width: 1024px) {
+    body {
+        padding: 4px;
+    }
+
+	.header-icon {
+		display: inline-block;
+	}
+
+	.header-description {
+		display: inline-block;
+		text-align: right;
+
+	}
+
+	.work-image {
+		width: 360px;
+	}
 }

@@ -92,7 +92,7 @@
 	}
 
 	.main {
-		width: 360px;
+		width: 100%;
 	}
 }
 /* Ipad */
@@ -111,7 +111,7 @@
 
 	}
 
-	.work-image {
-		width: 360px;
+	.main {
+		width: 100%;
 	}
 }

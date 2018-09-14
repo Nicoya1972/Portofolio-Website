@@ -83,7 +83,7 @@
       width: 100px;
       height: auto;
 		display: inline-block;
-    f
+
 	}
 
 	.header-description {
@@ -92,7 +92,7 @@
 	}
 
 	.main {
-		width: 100%;
+		max-width: 100%;
 	}
 }
 /* Ipad */
@@ -112,6 +112,6 @@
 	}
 
 	.main {
-		width: 100%;
+		max-width: : 100%;
 	}
 }
